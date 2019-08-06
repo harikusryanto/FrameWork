@@ -45,9 +45,9 @@
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Ibu & Anak</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Artikel</a>
+									<li class="nav-item"><a class="nav-link" href="artikel.html">Artikel</a>
 									<li class="nav-item"><a class="nav-link" href="blog.html">Video Edukasi</a>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Tips-Tips</a>
+									<li class="nav-item"><a class="nav-link" href="tips.html">Tips-Tips</a>
 								</ul>
 								<li class="nav-item"><a class="nav-link" href="about-us.html">Tentang Kami</a></li>
 							</li>
@@ -111,208 +111,34 @@
 	<!-- #region Jssor Slider Begin -->
     <!-- Generator: Jssor Slider Maker -->
     <!-- Source: https://www.jssor.com -->
-    <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jssor_1_slider_init = function() {
-
-            var jssor_1_SlideoTransitions = [
-              [{b:0,d:600,y:-290,e:{y:27}}],
-              [{b:0,d:1000,y:185},{b:1000,d:500,o:-1},{b:1500,d:500,o:1},{b:2000,d:1500,r:360},{b:3500,d:1000,rX:30},{b:4500,d:500,rX:-30},{b:5000,d:1000,rY:30},{b:6000,d:500,rY:-30},{b:6500,d:500,sX:1},{b:7000,d:500,sX:-1},{b:7500,d:500,sY:1},{b:8000,d:500,sY:-1},{b:8500,d:500,kX:30},{b:9000,d:500,kX:-30},{b:9500,d:500,kY:30},{b:10000,d:500,kY:-30},{b:10500,d:500,c:{x:125.00,t:-125.00}},{b:11000,d:500,c:{x:-125.00,t:125.00}}],
-              [{b:0,d:600,x:535,e:{x:27}}],
-              [{b:-1,d:1,o:-1},{b:0,d:600,o:1,e:{o:5}}],
-              [{b:-1,d:1,c:{x:250.0,t:-250.0}},{b:0,d:800,c:{x:-250.0,t:250.0},e:{c:{x:7,t:7}}}],
-              [{b:-1,d:1,o:-1},{b:0,d:600,x:-570,o:1,e:{x:6}}],
-              [{b:-1,d:1,o:-1,r:-180},{b:0,d:800,o:1,r:180,e:{r:7}}],
-              [{b:0,d:1000,y:80,e:{y:24}},{b:1000,d:1100,x:570,y:170,o:-1,r:30,sX:9,sY:9,e:{x:2,y:6,r:1,sX:5,sY:5}}],
-              [{b:2000,d:600,rY:30}],
-              [{b:0,d:500,x:-105},{b:500,d:500,x:230},{b:1000,d:500,y:-120},{b:1500,d:500,x:-70,y:120},{b:2600,d:500,y:-80},{b:3100,d:900,y:160,e:{y:24}}],
-              [{b:0,d:1000,o:-0.4,rX:2,rY:1},{b:1000,d:1000,rY:1},{b:2000,d:1000,rX:-1},{b:3000,d:1000,rY:-1},{b:4000,d:1000,o:0.4,rX:-1,rY:-1}]
-            ];
-
-            var jssor_1_options = {
-              $AutoPlay: 1,
-              $Idle: 2000,
-              $CaptionSliderOptions: {
-                $Class: $JssorCaptionSlideo$,
-                $Transitions: jssor_1_SlideoTransitions,
-                $Breaks: [
-                  [{d:2000,b:1000}]
-                ]
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*#region responsive code begin*/
-
-            var MAX_WIDTH = 980;
-
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-
-                if (containerWidth) {
-
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-
-            ScaleSlider();
-
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-    </script>
-    <link href="//fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&subset=latin-ext,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
-    <style>
-        /* jssor slider loading skin spin css */
-        .jssorl-009-spin img {
-            animation-name: jssorl-009-spin;
-            animation-duration: 1.6s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
-
-        @keyframes jssorl-009-spin {
-            from {
-                transform: rotate(0deg);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-
-        .jssorb052 .i {position:absolute;cursor:pointer;}
-        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
-        .jssorb052 .i:hover .b {fill-opacity:.7;}
-        .jssorb052 .iav .b {fill-opacity: 1;}
-        .jssorb052 .i.idn {opacity:.3;}
-
-        .jssora053 {display:block;position:absolute;cursor:pointer;}
-        .jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
-        .jssora053:hover {opacity:.8;}
-        .jssora053.jssora053dn {opacity:.5;}
-        .jssora053.jssora053ds {opacity:.3;pointer-events:none;}
-    </style>
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-            <div data-p="170">
-                <img data-u="image" src="img/001.jpg" />
-                <div data-t="0" style="position:absolute;top:320px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Mobile ready, touch swipe</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/002.jpg" />
-                <div data-t="1" style="position:absolute;top:-50px;left:125px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Time lined layer animation</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/003.jpg" />
-                <div data-t="2" style="position:absolute;top:30px;left:-505px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Finger catchable right to left</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/004.jpg" />
-                <div data-t="3" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">responsive, scale smoothly</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/005.jpg" />
-                <div data-t="4" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">image, text, and custom layers</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/006.jpg" />
-                <div data-t="5" style="position:absolute;top:30px;left:600px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">tons of transition type</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/007.jpg" />
-                <div data-t="6" style="position:absolute;top:30px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">visual slider maker</div>
-            </div>
-            <div data-b="0" data-p="170">
-                <img data-u="image" src="img/008.jpg" />
-                <div data-t="7" style="position:absolute;top:-50px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">play in and play out</div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/009.jpg" />
-                <div data-t="8" data-ts="preserve-3d" style="position:absolute;top:25px;left:150px;width:250px;height:250px;overflow:hidden;background-color:rgba(40,177,255,0.6);">
-                    <div data-t="9" style="position:absolute;top:100px;left:25px;width:200px;height:50px;font-family:Oswald,sans-serif;font-size:24px;font-weight:200;line-height:2.08;">A Child Layer</div>
-                </div>
-            </div>
-            <div data-p="170">
-                <img data-u="image" src="img/010.jpg" />
-                <div data-t="10" style="position:absolute;top:25px;left:100px;width:300px;height:260px;font-family:Oswald,sans-serif;font-size:24px;font-weight:200;line-height:1.25;padding:15px 15px 15px 15px;box-sizing:border-box;background-color:rgba(40,177,255,0.6);background-clip:padding-box;">This is full customized content layer.<br />​<br />
-
-                    Everything is allowed.<br />​<br />You can insert
-
-                    <a href="http://wwww.jssor.com">
-                        a link
-                    </a> or an image
-
-                    <img src="img/icon_chrome.png" /> here.
-                </div>
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-            <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-        <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora053" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-            </svg>
-        </div>
-        <div data-u="arrowright" class="jssora053" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-            </svg>
-        </div>
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/b1.jpg" alt="First slide">
     </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
-    <!-- #endregion Jssor Slider End -->
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/b2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/b3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-	<!--================Start About Us Area =================-->
-	<section class="about_us_area section_gap_top">
-		<div class="container">
-			<div class="row about_content align-items-center">
-				<div class="col-lg-6">
-					<div class="section_content">
-						<h6>Tentang</h6>
-						<h1>Monitoring <br>Tumbuh Kembang Anak</h1>
-						<p>Memberi informasi perkembangan anak sesuai 
-							umur anak : Memberi informasi untuk orang tua baru : 
-						Bisa mencatat perkembangan anak</p>
-						<a class="primary_btn" href="#">Learn More</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about_us_image_box justify-content-center">
-						<img class="img-fluid w-100" src="img/blog_1.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End About Us Area =================-->
+
 
 	<!--================First Upcoming Games Area =================-->
 	<section class="upcoming_games_area">
@@ -320,23 +146,23 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
-						<h2>Anak</h2>
-						<h1>Informasi</h1>
+						<h2>Sekilas Info</h2>
+						<h1>Sekilas Info</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row text-center">
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/blog_2.png" alt="" width="300" height="200">
+						<img src="img/info1.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Informasi Perkambangan Anak</a></h3>
+							<h3><a href="games.html">Informasi Perkembangan Anak</a></h3>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/2.png" alt="" width="300" height="200">
+						<img src="img/info2.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Gejala Perkembangan Anak 0-12 tahun</a></h3>
 						</div>
@@ -344,7 +170,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/3.png" alt="" width="300" height="200">
+						<img src="img/info3.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Tumbuh Kembang Pikiran Anak</a></h3>
 						</div>
@@ -352,7 +178,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="new_games_item">
-						<img src="img/4.png" alt="" width="300" height="200">
+						<img src="img/info4.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
 							<h3><a href="games.html">Kebiasaan Anak umur 0-12 Tahun</a></h3>
 						</div>
@@ -364,260 +190,10 @@
 	<!--================End Upcoming Games Area =================-->
 
 
-	<!--================ Start Gallery Area =================-->
-	<section class="gallery_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Screens Gallery</h2>
-						<h1>Screens Gallery</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img1.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="img/gallery_img1.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img2.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="img/gallery_img2.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-12">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="img/gallery_img3.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="img/gallery_img3.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 hidden-md hidden-sm">
-					<div class="single-gallery">
-						<div class="overlay"></div>
-						<img class="img-fluid w-100" src="img/gallery_img4.png" alt="">
-						<div class="content">
-							<a class="pop-up-image" href="img/gallery_img4.png">
-								<i class="lnr lnr-eye"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Gallery Area =================-->
+	
 
 
-	<!--========== Start Testimonials Area ==================-->
-	<section class="testimonials_area section_gap">
-		<div class="container">
-			<div class="testi_slider owl-carousel">
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Testimonials Area ================-->
 
-
-	<!--================ Start Pricing Plans Area ================-->
-	<section class="pricing_area section_gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Pricing Plans</h2>
-						<h1>Pricing Plans</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="pricing_item">
-						<h3 class="p_title">Silver Package</h3>
-						<h1 class="p_price">$69.00</h1>
-						<div class="p_list">
-							<ul>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-							</ul>
-						</div>
-						<div class="p_btn">
-							<a class="gradient_btn" href="#"><span>Order Now</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="pricing_item active">
-						<h3 class="p_title">Golden Package</h3>
-						<h1 class="p_price">$69.00</h1>
-						<div class="p_list">
-							<ul>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-							</ul>
-						</div>
-						<div class="p_btn">
-							<a class="gradient_btn" href="#"><span>Order Now</span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 hidden-md">
-					<div class="pricing_item">
-						<h3 class="p_title">Platinum Package</h3>
-						<h1 class="p_price">$69.00</h1>
-						<div class="p_list">
-							<ul>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-								<li>Basic hair Cut</li>
-							</ul>
-						</div>
-						<div class="p_btn">
-							<a class="gradient_btn" href="#"><span>Order Now</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Pricing Plans Area ================-->
-
-
-	<!--================ Start Frequently Asked Questions Area ================-->
-	<section class="frequently_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Frequently Asked Questions</h2>
-						<h1>Frequently Asked Questions</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row frequent_inner">
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item last-child">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item last-child">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Frequently Asked Questions Area ================-->
 
 	<!--================ Start Blog Area ================-->
 	<section class="blog_area">
@@ -625,8 +201,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
-						<h2>Latest Blog Posts</h2>
-						<h1>Latest Blog Posts</h1>
+						<h2>Artikel Terbaru</h2>
+						<h1>Artikel Terbaru</h1>
 					</div>
 				</div>
 			</div>
@@ -634,16 +210,15 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img1.png" alt="">
+							<img class="img-fluid" src="img/blog/main-blog/bl1.jpg" alt="">
 						</div>
 						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<a class="title" href="blog.html">Panduan Penyimpanan Makanan Si Kecil</a>
+							<p>Si Kecil biasanya tidak akan menolak makanan yang hangat atau makanan yang memiliki suhu ruangan. Dengan cara memanaskan dan menyimpan yang tepat, maka nutrisi yang terkandung di dalam makanan juga akan bertahan dan dapat dimanfaatkan oleh tubuh ...</p>
 							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>August 7, 2019 </a>
 								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 0</a>
 							</div>
 						</div>
 					</div>
@@ -651,16 +226,15 @@
 				<div class="col-lg-4 col-md-6">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img2.png" alt="">
+							<img class="img-fluid" src="img/blog/main-blog/bl2.jpg" alt="">
 						</div>
 						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<a class="title" href="blog.html">Libatkan Suami Ketika Ibu Menyusui Si Kecil</a>
+							<p>Saat Ibu memasuki fase menyusui, Tidak ada salahnya untuk melibatkan suami ketika Ibu menyusui bayi. Ini akan membuat tugas Ibu menjadi lebih ringan sekaligus membuat ikatan batin antara Ibu, suami dan bayi semakin erat</p>
 							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
-								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>August 6, 2019 </a>
+								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 30</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 0</a>
 							</div>
 						</div>
 					</div>
@@ -668,16 +242,16 @@
 				<div class="col-lg-4 hidden-md">
 					<div class="blog_items">
 						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img3.png" alt="">
+							<img class="img-fluid" src="img/blog/main-blog/bl4.jpg" alt="">
 						</div>
 						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<a class="title" href="blog.html">Tips Memberikan Makanan Pada Bayi 8-10 Bulan</a>
+                     
+							<p>Di periode ini, ia mulai beradaptasi dengan rasa dan tekstur makanan, ada kemungkinan bayi mulai memiliki makanan kesukaannya dan mulai tidak menyukai suatu jenis makanan. Ibu juga memiliki tantangan baru agar si Kecil tidak ...</p>
 							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
-								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
+								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>August 4, 2019 </a>
+								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i>23</a>
+								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 2</a>
 							</div>
 						</div>
 					</div>
