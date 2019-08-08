@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -56,7 +55,7 @@
                             <i class="material-icons">lock</i>
                         </span>
                         <div class="form-line">
-                            <input type="password" class="form-control" name="confirm" minlength="6" placeholder="Confirm Password" required="" aria-required="true">
+                            <input type="password" class="form-control" name="password" minlength="6" placeholder="Confirm Password" required="" aria-required="true">
                         </div>
                     </div>
                     <h2>Data Anak</h2>

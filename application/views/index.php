@@ -49,7 +49,7 @@
                                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Video Edukasi</a>
                                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tips-Tips</a>
                                 </ul>
-                                <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tentang Kami</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/kontak")?>">Tentang Kami</a></li>
                             </li>
 							
 

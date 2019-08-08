@@ -9,10 +9,10 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="card">
                         <div class="header">
-                            <h2>
+                           <!--  <h2>
                                 Data User
                                 <a href="<?php echo site_url('user/insert'); ?>" class="btn btn-primary pull-right">Tambah Data</a>
-                            </h2>
+                            </h2> -->
                         </div>
                         <div class="body">
                             <div class="table-responsive">

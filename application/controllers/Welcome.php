@@ -40,6 +40,10 @@ class Welcome extends CI_Controller {
 
 		$this->load->view('login');
 	}
+	public function kontak()
+	{
+		$this->load->view('contact');
+	}
 
 	// Register
 	public function register()
@@ -78,7 +82,7 @@ class Welcome extends CI_Controller {
 		if (empty($cek_login)) {
 			redirect ("/");
 		}else{
-			redirect(site_url('welcome/index'));
+			redirect(site_url('welcome/home'));
 		}
 	}
 
