@@ -5,9 +5,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-	<title>Sign In | Bootstrap Based Admin Template - Material Design</title>
+	<title>Selamat Datang</title>
 	<!-- Favicon-->
-	<link rel="icon" href="<?php echo base_url(); ?>assets/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="<?php echo base_url(); ?>assets1/img/logo1.png" type="image/x-icon">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -25,12 +25,11 @@
 	<!-- Custom Css -->
 	<link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 </head>
-
-<body class="login-page">
+<body class="login-page" background="<?php echo base_url();?>assets/images/icon3.jpg">
 	<div class="login-box">
 		<div class="logo">
 			<a href="javascript:void(0);"></a>
-			<small>Admin BootStrap Based - Material Design</small>
+			<h3>Silahkan Login Terlebih Dahulu</h3>
 		</div>
 		<div class="card">
 			<div class="body">
@@ -41,7 +40,7 @@
 							<i class="material-icons">person</i>
 						</span>
 						<div class="form-line">
-							<input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+							<input type="text" class="form-control" name="username" placeholder="Email" required autofocus>
 						</div>
 					</div>
 					<div class="input-group">
@@ -52,22 +51,14 @@
 							<input type="password" class="form-control" name="password" placeholder="Password" required>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-8 p-t-5">
-							<input type="checkbox" name="rememberme" id="rememberme" class="filled-in chk-col-pink">
-							<label for="rememberme">Remember Me</label>
-						</div>
 						<div class="col-xs-4">
 							<button class="btn btn-block bg-pink waves-effect" type="submit">SIGN IN</button>
 						</div>
-					</div>
-					<div class="row m-t-15 m-b--20">
-						<div class="col-xs-6">
-							<a href="<?php echo site_url("welcome/register")?>">Register Now!</a>
+						<div class="row m-t-15 m-b--30">
+						<div class="col-xs-5">
+							<h2> <a href="<?php echo site_url("welcome/register")?>">Daftar Sekarang!</a> <h2>
 						</div>
-						<div class="col-xs-6 align-right">
-							<a href="forgot-password.html">Forgot Password?</a>
-						</div>
+						<h2> <a href="<?php echo site_url("")?>">Kembali </a></h2>
 					</div>
 				</form>
 			</div>

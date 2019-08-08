@@ -26,22 +26,21 @@
 	<link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="login-page">
+<body class="login-page" background="<?php echo base_url();?>assets/images/icon3.jpg">
 	<div class="login-box">
 		<div class="logo">
-			<a href="javascript:void(0);">Register1S </a>
-			<small>Admin BootStrap Based - Material Design</small>
+			<a href="javascript:void(0);">Daftar Data Diri Anda </a>
 		</div>
 		<div class="card">
 <div class="body">
                 <form id="sign_up" method="POST" novalidate="novalidate">
-                    <div class="msg">Register a new membership</div>
+                        
                     <div class="input-group">
                         <span class="input-group-addon">
                             <i class="material-icons">person</i>
                         </span>
                         <div class="form-line">
-                            <input type="text" class="form-control" name="namesurname" placeholder="Name Surname" required="" autofocus="" aria-required="true">
+                            <input type="text" class="form-control" name="namesurname" placeholder="Nama Anda" required="" autofocus="" aria-required="true">
                         </div>
                     </div>
                     <div class="input-group">
@@ -49,15 +48,7 @@
                             <i class="material-icons">email</i>
                         </span>
                         <div class="form-line">
-                            <input type="email" class="form-control" name="email" placeholder="Email Address" required="" aria-required="true">
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="material-icons">lock</i>
-                        </span>
-                        <div class="form-line">
-                            <input type="password" class="form-control" name="password" minlength="6" placeholder="Password" required="" aria-required="true">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required="" aria-required="true">
                         </div>
                     </div>
                     <div class="input-group">
@@ -109,15 +100,10 @@
                             <input type="text" class="form-control" name="jk" minlength="6" placeholder="Jenis Kelamin Anak" required="" aria-required="true">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <input type="checkbox" name="terms" id="terms" class="filled-in chk-col-pink">
-                        <label for="terms">Daftar <a href="javascript:void(0);">terms of usage</a>.</label>
-                    </div>
-
-                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">SIGN UP</button>
+                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">Daftar Segera</button>
 
                     <div class="m-t-25 m-b--5 align-center">
-                        <a href="<?php echo base_url(); ?>">You already have a membership?</a>
+                        <a href="<?php echo site_url("welcome/login"); ?>">Sudah Punya Akun?</a>
                     </div>
                 </form>
             </div>
