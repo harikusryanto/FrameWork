@@ -37,18 +37,18 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav justify-content-center">
-                            <li class="nav-item active"><a class="nav-link" href="<?php echo base_url(); ?>assets1/index.php">Beranda</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="<?php echo site_url("welcome/index")?>">Beranda</a></li>
                            <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/blog")?>">Perkembangan Anak</a></li>
                             <!--<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/gallery.html">Galeri</a>-->
                             <li class="nav-item submenu dropdown">
                                 <a href="<?php echo base_url(); ?>assets1/#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                  aria-expanded="false">Ibu & Anak</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Artikel</a>
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/blog.php">Video Edukasi</a>
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/tips.php">Tips-Tips</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/artikel")?>">Artikel</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Video Edukasi</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tips-Tips</a>
                                 </ul>
-                                <li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/contact.php">Tentang Kami</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tentang Kami</a></li>
                             </li>
                             <!--<li class="nav-item submenu dropdown">
                             <!--<li class="nav-item submenu dropdown">
