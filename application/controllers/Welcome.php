@@ -25,18 +25,22 @@ class Welcome extends CI_Controller {
 	}
 	public function index()
 	{
-		$nama="Hari Kusryanto";
-		$data = array('nama' => $nama, );
-		$this->load->view('index',$data);
+		$this->load->view('index');
 	}
 	public function artikel()
 	{
 		$this->load->view('artikel');
 	}
-		public function blog()
+	public function blog()
 	{
 		$this->load->view('blog');
 	}
+	public function login()
+	{
+
+		$this->load->view('login');
+	}
+
 	// Register
 	public function register()
 	{

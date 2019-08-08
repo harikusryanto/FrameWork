@@ -29,7 +29,7 @@
 <body class="login-page">
 	<div class="login-box">
 		<div class="logo">
-			<a href="javascript:void(0);"> <?php echo $nama; ?> </a>
+			<a href="javascript:void(0);"></a>
 			<small>Admin BootStrap Based - Material Design</small>
 		</div>
 		<div class="card">

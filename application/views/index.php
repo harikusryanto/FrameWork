@@ -38,7 +38,7 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
-							<li class="nav-item active"><a class="nav-link" href="<?php echo site_url("welcome/index")?>">Beranda</a></li>
+							<li class="nav-item active"><a class="nav-link" href="<?php echo site_url("")?>">Beranda</a></li>
                            <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/blog")?>">Perkembangan Anak</a></li>
                             <!--<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/gallery.html">Galeri</a>-->
                             <li class="nav-item submenu dropdown">
@@ -59,7 +59,7 @@
 							
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="application/views/register.php" class="primary_btn">masuk</a></li>
+							<li class="nav-item"><a href="<?php echo site_url("welcome/login")?>" class="primary_btn">masuk</a></li>
 						</ul>
 					</div>
 				</div>
