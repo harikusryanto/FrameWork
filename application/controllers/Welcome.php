@@ -27,7 +27,15 @@ class Welcome extends CI_Controller {
 	{
 		$nama="Hari Kusryanto";
 		$data = array('nama' => $nama, );
-		$this->load->view('login',$data);
+		$this->load->view('index',$data);
+	}
+	public function artikel()
+	{
+		$this->load->view('artikel');
+	}
+		public function blog()
+	{
+		$this->load->view('blog');
 	}
 	// Register
 	public function register()
@@ -66,7 +74,7 @@ class Welcome extends CI_Controller {
 		if (empty($cek_login)) {
 			redirect ("/");
 		}else{
-			redirect(site_url('welcome/home'));
+			redirect(site_url('welcome/index'));
 		}
 	}
 
