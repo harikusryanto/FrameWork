@@ -203,8 +203,8 @@
         <script src="<?php echo base_url(); ?>assets1/js/popper.js"></script>
         <script src="<?php echo base_url(); ?>assets1/js/bootstrap.min.js"></script>
         <script src="<?php echo base_url(); ?>assets1/js/stellar.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets1/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo base_url(); ?>assets1/js/jquery.magnific-popup.min.js"></script>
         <script src="<?php echo base_url(); ?>assets1/vendors/nice-select/js/jquery.nice-select.min.js"></script>
         <script src="<?php echo base_url(); ?>assets1/vendors/isotope/imagesloaded.pkgd.min.js"></script>
         <script src="<?php echo base_url(); ?>assets1/vendors/isotope/isotope-min.js"></script>

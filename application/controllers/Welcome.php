@@ -44,6 +44,10 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('contact');
 	}
+	public function loginadmin()
+	{
+		$this->load->view('loginadmin');
+	}
 
 	// Register
 	public function register()
@@ -80,6 +84,18 @@ class Welcome extends CI_Controller {
 		$cek_login= $this->User_model->login($username,md5($password));
 
 		if (empty($cek_login)) {
+			redirect ("/");
+		}else{
+			redirect(site_url('welcome/blog'));
+		}
+	}
+	public function cek_loginadmin()
+	{
+		$username = $this->input->post("username");	
+		$password = $this->input->post("password");
+		$cek_loginadmin= $this->User_model->loginadmin($username,md5($password));
+
+		if (empty($cek_loginadmin)) {
 			redirect ("/");
 		}else{
 			redirect(site_url('welcome/home'));

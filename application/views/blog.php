@@ -65,7 +65,7 @@
                             
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"> <a href="<?php echo site_url()?>"class="primary_btn">masuk</a></li>
+                            <li class="nav-item"> <a href="<?php echo site_url()?>" class="primary_btn">masuk</a></li>
                         </ul>
                     </div>
                 </div>

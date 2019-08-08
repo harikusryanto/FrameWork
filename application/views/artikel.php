@@ -44,12 +44,13 @@
                                 <a href="<?php echo base_url(); ?>assets1/#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                  aria-expanded="false">Ibu & Anak</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/artikel")?>">Artikel</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Artikel</a>
                                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Video Edukasi</a>
                                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tips-Tips</a>
                                 </ul>
-                                <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tentang Kami</a></li>
+                                <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/kontak")?>">Tentang Kami</a></li>
                             </li>
+                            
 
                                 </ul>
                             </li>
@@ -57,7 +58,7 @@
                             
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a href="#" class="primary_btn">masuk</a></li>
+                            <li class="nav-item"><a href="<?php echo site_url("welcome/login")?>" class="primary_btn">masuk</a></li>
                         </ul>
                     </div>
                 </div>

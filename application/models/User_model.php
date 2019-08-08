@@ -11,6 +11,12 @@
  							email='".$username."'
  							and password='".$password."'")->row();
  	}
+ 	public function loginadmin($username, $password)
+ 	{
+ 		return $this->db->query("Select *from admin where
+ 							email='".$username."'
+ 							and password='".$password."'")->row();
+ 	}
  	public function insert($data)
  	{
  		$this->db->insert('user',$data);
@@ -22,6 +28,10 @@
  	public function selectkomentar()
  	{
  		return $this->db->get('komentar')->result();
+ 	}
+ 	public function selectadmin()
+ 	{
+ 	return $this->db->get('admin')->result();
  	}
  	public function delete($id)
  	{

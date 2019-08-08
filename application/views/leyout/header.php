@@ -314,7 +314,13 @@
                             <i class="material-icons">person</i>
                             <span>Komentar</span>
                         </a>
-                    </li>                    
+                    </li>
+                     <li>
+                        <a href="<?php echo site_url('admin'); ?>">
+                            <i class="material-icons">person</i>
+                            <span>Admin</span>
+                        </a>
+                    </li>                     
                 </ul>
             </div>
             <!-- #Menu -->
