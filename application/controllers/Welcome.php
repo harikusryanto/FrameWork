@@ -48,7 +48,23 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('loginadmin');
 	}
+	public function info1()
+	{
+		$this->load->view('single-blog1');
+	}
+	public function info2()
+	{
+		$this->load->view('single-blog2');
+	}
 
+	public function artikel1()
+	{
+		$this->load->view('artikel1');
+	}
+	public function pp1()
+	{
+		$this->load->view('');
+	}
 	// Register
 	public function register()
 	{

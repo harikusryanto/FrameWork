@@ -74,10 +74,10 @@
                 <div class="container">
                     <div class="banner_content text-center">
                         <div class="page_link">
-                            <a href="#">Selamat Datang</a>
+                            <a href="#">Website Monitoring Tumbuh Kembang Anak</a>
                         </div>
-                        <h2>Website Monitoring Tumbuh Kembang Anak</h2>
-                        <h2>Usia 0-12 Tahun</h2>
+                        <h2>Artikel</h2>
+                        <h2></h2>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                                     <div class="blog_post">
                                         <img src="<?php echo base_url(); ?>assets1/img/blog/main-blog/m-1.jpg" alt="">
                                         <div class="blog_details">
-                                            <a href="art1.php"><h2>Panduan Penyimpanan Makanan Si Kecil</h2></a>
+                                            <a href="<?php echo site_url("welcome/artikel1")?>"><h2>Panduan Penyimpanan Makanan Si Kecil</h2></a>
                                             <p>Si Kecil biasanya tidak akan menolak makanan yang hangat atau makanan yang memiliki suhu ruangan. Dengan cara memanaskan dan menyimpan yang tepat, maka nutrisi yang terkandung di dalam makanan juga akan bertahan dan dapat dimanfaatkan oleh tubuh si Kecil dengan optimis</p>
                                             <a href="art1.php" class="blog_btn">View More</a>
                                         </div>
@@ -124,10 +124,10 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                            <a href="#">Food,</a>
-                                            <a class="active" href="#">Technology,</a>
-                                            <a href="#">Politics,</a>
-                                            <a href="#">Lifestyle</a>
+                                            <a href="#">#Ibu&Anak,</a>
+                                            <a class="active" href="#">#Bayi,</a>
+                                            <a href="#">#Kesehatan,</a>
+                                            <a href="#">#Keluarga</a>
                                         </div>
                                        <ul class="blog_meta list">
                                             <li><a href="#">Administrator<i class="lnr lnr-user"></i></a></li>

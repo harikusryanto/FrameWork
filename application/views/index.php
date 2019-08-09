@@ -28,7 +28,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="<?php echo base_url(); ?>assets1/img/logo1.png" width="90" alt=""></a>
+					<a class="navbar-brand logo_h" href="<?php echo base_url(""); ?>"><img src="<?php echo base_url(); ?>assets1/img/logo1.png" width="90" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -39,15 +39,15 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
 							<li class="nav-item active"><a class="nav-link" href="<?php echo site_url("")?>">Beranda</a></li>
-                           <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/blog")?>">Perkembangan Anak</a></li>
-                            <!--<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>assets1/gallery.html">Galeri</a>-->
+                           <li class="nav-item"><a class="nav-link" href="<?php echo site_url("")?>">Perkembangan Anak</a></li>
+                            
                             <li class="nav-item submenu dropdown">
                                 <a href="<?php echo base_url(); ?>assets1/#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                  aria-expanded="false">Ibu & Anak</a>
                                 <ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Artikel</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/artikel")?>">Artikel</a>
                                     <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Video Edukasi</a>
-                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url()?>">Tips-Tips</a>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/tips")?>">Tips-Tips</a>
                                 </ul>
                                 <li class="nav-item"><a class="nav-link" href="<?php echo site_url("welcome/kontak")?>">Tentang Kami</a></li>
                             </li>
@@ -105,7 +105,7 @@
 					<div class="new_games_item">
 						<img src="<?php echo base_url(); ?>assets1/img/info1.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Informasi Perkembangan Anak</a></h3>
+							<h3><a href="<?php echo site_url("welcome/info1")?>">Informasi Perkembangan Anak</a></h3>
 						</div>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 					<div class="new_games_item">
 						<img src="<?php echo base_url(); ?>assets1/img/info2.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Gejala Perkembangan Anak 0-12 tahun</a></h3>
+							<h3><a href="<?php echo site_url("welcome/info2")?>">Gejala Perkembangan Anak 0-12 tahun</a></h3>
 						</div>
 					</div>
 				</div>
@@ -121,7 +121,7 @@
 					<div class="new_games_item">
 						<img src="<?php echo base_url(); ?>assets1/img/info3.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Tumbuh Kembang Pikiran Anak</a></h3>
+							<h3><a href="<?php echo site_url("welcome/login")?>">Tumbuh Kembang Pikiran Anak</a></h3>
 						</div>
 					</div>
 				</div>
@@ -129,7 +129,7 @@
 					<div class="new_games_item">
 						<img src="<?php echo base_url(); ?>assets1/img/info4.jpg" alt="" width="300" height="200">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Kebiasaan Anak umur 0-12 Tahun</a></h3>
+							<h3><a href="<?php echo site_url("welcome/login")?>">Kebiasaan Anak umur 0-12 Tahun</a></h3>
 						</div>
 					</div>
 				</div>
